@@ -35,12 +35,10 @@ public class Animal {
         this.peso = peso;
     }
 
-    // Método concreto
     public void comer() {
         System.out.println(nombre + " está comiendo.");
     }
 
-    // Método concreto
     public void dormir() {
         System.out.println(nombre + " está durmiendo.");
     }
